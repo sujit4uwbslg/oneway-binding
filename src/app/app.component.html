@@ -1,0 +1,25 @@
+<!--
+  Interpolation: The method to show data from class to template
+-->
+<h3>The data to show Interpolation  <u>{{title}}</u></h3>
+
+<!--
+  property binding
+  id is property and asigning directly some value
+-->
+<p [id]="'idParagraph'">This is a test for attribute binding</p>
+
+<!--
+  Style binding: Directly providng css codes
+-->
+<h1 [style]="'color:red'">This is style binding</h1>
+
+<!--
+  class binding:we need to create formating in app.component.css file
+-->
+<h1 [class]="'myclass'">This is an example of class binding</h1>
+
+<!--
+  Event binding: need to define handler function component class
+-->
+<button (click)="showMe()">Click Me</button>
